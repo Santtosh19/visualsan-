@@ -60,6 +60,7 @@ app = Dash(
         "https://cdn.jsdelivr.net/npm/ag-grid-community/styles/ag-theme-alpine.css"
     ]
 )
+server = app.server
 
 # 🔁 Top-level layout with Tabs
 app.layout = dbc.Container([
